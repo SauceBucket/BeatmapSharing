@@ -19,3 +19,7 @@ next step is profit??
 notes:
 
 the number used to sort/order beatmaps is the SET NUMBER. search by set number on mirror websites to find the correct map.
+
+problem numero uno with pulling filenames is optimization of simply pulling only the first integers until a space charater
+
+another issue is song directories that do not have set ids yet (i.e. your maps you made but not uploaded) mucking up the process.
