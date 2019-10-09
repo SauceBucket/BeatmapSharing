@@ -5,7 +5,7 @@ first goal is to pull the id codes from beatmap folders in osu!/songs/ and place
 
 second goal is to request those numbers from the appropriate beatmap mirror server
 
-these two should be seperate scripts so you can theoretically take any text file and use that for the request not just use the one thats in your songs folder but instead borrow another user's beatmap collection and do the function:
+these two should be seperate scripts so you can theoretically take any text file and use that for the request not just use the one thatthe program made on your machine but instead borrow another user's beatmap collection and do the function:
 
 updated folder = old beatmaps ⋃ new beatmaps pulled from mirror server
 
