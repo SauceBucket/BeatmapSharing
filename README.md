@@ -11,3 +11,11 @@ updated folder = old beatmaps ⋃ new beatmaps pulled from mirror server
 
 
 next step is profit??
+
+
+
+
+
+notes:
+
+the number used to sort/order beatmaps is the SET NUMBER. search by set number on mirror websites to find the correct map.
