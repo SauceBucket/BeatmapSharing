@@ -1,8 +1,15 @@
 import os
+drive = 'C'
+print("please input the letter of which drive your osu! folder is on.")
+drive=input()
 
-songpath = r'C:\Users\Pizza\AppData\Local\osu!\Songs'
-
-songid = open("songs_setid","w+")
+rootDir = '/'
+for dirName, subdirList, fileList in os.walk(rootDir):
+    if dirName.endswith('osu!\Songs'):
+        print(dirName)
+        songpath = drive + ':' + dirName
+print(songpath)
+songid = open("songs_setid.txt","w+")
 
 for entry in os.listdir(songpath):
     if os.path.isdir(os.path.join(songpath,entry)):
@@ -13,3 +20,8 @@ for entry in os.listdir(songpath):
 songid.close()
 
 
+
+ 
+
+        
+    
