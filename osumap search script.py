@@ -2,6 +2,7 @@ import os
 drive = 'C'
 print("please input the letter of which drive your osu! folder is on.")
 drive=input()
+drive=drive.upper()
 
 rootDir = '/'
 for dirName, subdirList, fileList in os.walk(rootDir):
@@ -9,7 +10,7 @@ for dirName, subdirList, fileList in os.walk(rootDir):
         print(dirName)
         songpath = drive + ':' + dirName
 print(songpath)
-songid = open("songs_setid.txt","w+")
+songid = open("songs_setid.osm","w+")
 
 for entry in os.listdir(songpath):
     if os.path.isdir(os.path.join(songpath,entry)):
