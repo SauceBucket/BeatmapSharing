@@ -14,8 +14,6 @@ next step is profit??
 
 
 
-
-
 notes:
 
 the number used to sort/order beatmaps is the SET NUMBER. search by set number on mirror websites to find the correct map.
@@ -23,3 +21,7 @@ the number used to sort/order beatmaps is the SET NUMBER. search by set number o
 
 
  issue if song directories that do not have set ids yet (i.e. your maps you made but not uploaded) mucking up the process.
+
+
+make a tool to compare two text files and remove duplicate song ids from the list so you dont download songs twice 
+(using ppys resources and your own more than necessary)
