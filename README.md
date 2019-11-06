@@ -1,4 +1,5 @@
-# BeatmapSync
+# Beatmap Sharing
+
 A attempt at pulling maps en masse from server
 
 Firsty, this was made for windows, have 0 idea if it will work for mac/linux but I see no reason why it shouldn't other than file manip garbage
