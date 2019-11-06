@@ -19,5 +19,5 @@ print("you chose option " + str(option) +"\n" + "whose path is "+ osm +"\nretrie
 with open(osm) as f:
         for line in f:
                 webbrowser.open("https://osu.ppy.sh/beatmapsets/"+line+"/download")
-                time.sleep(20)
+                time.sleep(20)                                           #//this line dictates download speed (change with caution)
 f.close()         
