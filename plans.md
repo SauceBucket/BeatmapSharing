@@ -25,3 +25,5 @@ the number used to sort/order beatmaps is the SET NUMBER. search by set number o
 
 make a tool to compare two text files and remove duplicate song ids from the list so you dont download songs twice 
 (using ppys resources and your own more than necessary)
+ 
+make a option to create osm files with custom ranges of beatmap id #s
