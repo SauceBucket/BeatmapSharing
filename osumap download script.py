@@ -3,7 +3,7 @@ import os
 import time
 print("please select a text file from displayed. \nIf not displayed, please make sure that it is in the same folder as this script.")
 i=0
-x= [0,0,0,0,0,0,0,0,0,0]
+x= [0,0,0,0,0,0,0,0,0,0] #// I dont know actual python array syntax dont make fun of me :(
 for file in os.listdir("."):
     if file.endswith(".osm"):
         print("option " + str(i+1) + " " + os.path.join(os.getcwd(),file) )
