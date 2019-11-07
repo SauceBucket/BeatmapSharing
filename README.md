@@ -6,7 +6,7 @@ Main website is functioning
 
 Firsty, this was made for windows, have 0 idea if it will work for mac/linux but I see no reason why it shouldn't other than file manip garbage
 
-Using this script shouldnt be too difficult. The only exception is that if you want to make your own file remember to save it as .osm filetype. If you want to package up your beatmap folder then use the search script.
+Using this script shouldnt be too difficult. The only exception is that if you want to make your own file remember to save it as .osm filetype. If you want to package up your beatmap folder then use the compilation script.
 
 If you want to take a packaged up beatmap set and download all the maps, then use the downloading script. 
 
