@@ -19,7 +19,7 @@ class App(QWidget):
         self.height = 200
         self.setStyleSheet("""
         QWidget {
-             background-image: broccoli.png;
+             background-color: #ffccff;
             }
         QPushButton{
          color: #0;
@@ -52,15 +52,16 @@ class App(QWidget):
 
     @pyqtSlot()
     def on_click(self):
-        sys.exit()
         osumap_download_script.download()
+        sys.exit()
     @pyqtSlot()
     def on_click1(self):
+        osumap_compilation_script.compile()
         sys.exit()
-        osumap_compilation_script.compile()    
     @pyqtSlot()
     def on_click2(self):
         sys.exit()
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
