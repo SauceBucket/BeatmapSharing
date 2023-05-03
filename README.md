@@ -8,4 +8,4 @@ GUI is online and in current development so ease of use should definitely be goi
 
 If you want to take a packaged up beatmap set and download all the maps, then use the downloading script. 
 
-*Tool Outdated and bricked by server DDOS protection*
+!!!*Tool Outdated and bricked by server DDOS protection*!!!
