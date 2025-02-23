@@ -1,6 +1,6 @@
 # Beatmap Sharing
 
-A attempt at pulling maps en masse from server (main website or mirror)
+script to pull maps en masse from osu beatmap mirror websites. This is now depreciated.
 
 Firsty, this was made for windows, have 0 idea if it will work for mac/linux
 
